@@ -29,8 +29,10 @@ public class main {
             String args3 = args[2];
             //convert string args to integer
             int args4 = Integer.parseInt(args2);
+            String args5 = args[3];
+
             String filetest = obj.zipDecompress();
-            getResponse(args1, args4, args3, filetest);
+            getResponse(args1, args4, args3, args5, filetest);
             try {
                 File file = new File(filetest);
                 if(file.delete()) {
@@ -46,7 +48,7 @@ public class main {
         }
     }
 
-    public static void getResponse(String BotAuthKey, int keyId, String vCode, String file) throws ApiException {
+    public static void getResponse(String BotAuthKey, int keyId, String vCode, String file, String User) throws ApiException {
         //Create Slack web socket connection
         SlackSession session = SlackSessionFactory.createWebSocketSlackSession(BotAuthKey);
         try {
@@ -55,7 +57,7 @@ public class main {
             e.printStackTrace();
         }
         SlackChannel channel = session.findChannelByName("random");
-        SlackUser user = session.findUserByUserName("jonatanreed");
+        SlackUser user = session.findUserByUserName(User);
 
         ApiAuthorization auth = new ApiAuthorization(keyId, vCode);
         AssetListParser parser = new AssetListParser();
