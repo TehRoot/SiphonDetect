@@ -5,7 +5,7 @@
 + SECOND PARAMETER = EVE Online API Key ID
 + THIRD PARAMETER = EVE Online API Verification Code
 + FOURTH PARAMETER = Username of slack user you would like to ping in addition to the random channel
-+ Example construction - " java -jar ApiSiphon.jar "bot-key" "key-id" "verification code" "
++ Example construction - " java -jar ApiSiphon.jar "bot-key" "key-id" "verification code" "username - spaces permitted"
 
 
 ###Required API Roles
