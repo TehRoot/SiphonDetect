@@ -10,4 +10,5 @@
 ###Required API Roles
 + Corp Asset List
 
-
+###Added functionality
++ Ability to tell exactly which POS has a siphon on it beyond just the system, helping with multiple poses in a single system
