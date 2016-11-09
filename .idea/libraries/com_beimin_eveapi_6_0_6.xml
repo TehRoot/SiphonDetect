@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="com.beimin:eveapi:6.0.6" type="repository">
+    <properties maven-id="com.beimin:eveapi:6.0.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/eveapi-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/eveapi-6.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/eveapi-6.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
