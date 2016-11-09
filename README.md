@@ -6,5 +6,5 @@
 ####THIRD PARAMETER = EVE Online API Verification Code
 
 ###Required Key Roles
-####Corp Asset List
++Corp Asset List
 
